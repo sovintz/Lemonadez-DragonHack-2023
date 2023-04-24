@@ -4,10 +4,13 @@
     <v-app-bar :color="position[1] > 0 ? 'primary' : 'transparent'" dark app elevate-on-scroll>
 
       <!-- AppBar Text Title -->
-      <v-toolbar-title class="white--text text-uppercase text-center" style="cursor: pointer"
+<!--      <v-toolbar-title class="white&#45;&#45;text text-uppercase text-center" style="cursor: pointer"
                        @click="$vuetify.goTo('#header', {duration:2000})">
         {{ $t('homePage.appBarTitle') }}
-      </v-toolbar-title>
+      </v-toolbar-title>-->
+      <v-avatar size="45" class="my-1 mr-3 rounded-circle" style="cursor: pointer" @click="$vuetify.goTo('#header', {duration:1000})">
+        <v-img src="favicon.ico" style="background-color: white"/>
+      </v-avatar>
 
       <v-spacer/>
 
@@ -16,19 +19,17 @@
         {{ $t(item.title) }}
       </v-btn>
 
-      <v-spacer/>
-
       <!-- Social icons-->
-      <v-btn v-for="(socialIcon, index) in $i18n.t('socialIcons')" :key="index"
+<!--      <v-btn v-for="(socialIcon, index) in $i18n.t('socialIcons')" :key="index"
              class="mx-4 lighten-1 hidden-sm-and-down" icon @click="contact(socialIcon.url)">
         <v-icon size="24px">
           {{ socialIcon.icon }}
         </v-icon>
-      </v-btn>
+      </v-btn>-->
 
       <!-- Desktop Language Selector -->
-      <v-menu offset-y>
-        <!-- dropdown activator & button -->
+<!--      <v-menu offset-y>
+        &lt;!&ndash; dropdown activator & button &ndash;&gt;
         <template v-slot:activator="{ on, attrs }">
           <v-btn class="ma-2 hidden-sm-and-down" text plain v-bind="attrs" v-on="on">
             {{ $i18n.locale }}
@@ -36,7 +37,7 @@
         </template>
 
 
-        <!-- Desktop Dropdown Rendering -->
+        &lt;!&ndash; Desktop Dropdown Rendering &ndash;&gt;
         <v-list>
           <v-list-item
             v-for="locale in $i18n.locales"
@@ -47,7 +48,7 @@
           </v-list-item>
 
         </v-list>
-      </v-menu>
+      </v-menu>-->
 
       <!-- Mobile Navigation Icon-->
       <v-app-bar-nav-icon class="hidden-md-and-up" @click="drawer = !drawer"></v-app-bar-nav-icon>
@@ -65,14 +66,14 @@
       </v-list>
 
       <!-- Mobile Social icons-->
-      <div class="mx-auto">
+<!--      <div class="mx-auto">
         <v-btn v-for="(socialIcon, index) in $i18n.t('socialIcons')" :key="index" class="mx-4 lighten-1" icon
                @click="contact(socialIcon.url); drawer=false">
           <v-icon size="24px">
             {{ socialIcon.icon }}
           </v-icon>
         </v-btn>
-      </div>
+      </div>-->
 
       <!-- Mobile Language Selector -->
       <!-- Dropdown Activator & Button -->

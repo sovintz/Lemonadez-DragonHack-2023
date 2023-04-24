@@ -13,7 +13,7 @@
           </v-col>
           <!-- Header Button -->
           <v-col>
-            <v-btn class="ma-1" color="accent" :x-large="$vuetify.breakpoint.mdAndUp" @click="$vuetify.goTo('#contact', {duration:3000})">
+            <v-btn class="ma-1" color="accent" :x-large="$vuetify.breakpoint.mdAndUp" @click="$vuetify.goTo('#about', {duration:1000})">
               {{ $t('homePage.header.buttonContact') }}
             </v-btn>
           </v-col>

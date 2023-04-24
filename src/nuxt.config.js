@@ -49,21 +49,13 @@ export default {
     [
       '@nuxtjs/i18n',
       {
-        // TODO: change
-        baseUrl: 'https://example.com',
-        // TODO: configure
+        baseUrl: 'https://dragonhack.webturtlelabs.com',
         locales: [
           {
             code: 'en',
             iso: 'en',
             name: 'English',
             file: 'en.json'
-          },
-          {
-            code: 'es',
-            iso: 'es-ES',
-            name: 'Español',
-            file: 'es.json'
           }
         ],
         lazy: true,
@@ -111,8 +103,8 @@ export default {
       themes: {
         light: {
           // TODO: configure
-          primary: colors.blue.darken3,
-          accent: colors.pink.darken2,
+          primary: colors.cyan.darken3,
+          accent: colors.yellow.darken2,
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,
           warning: colors.amber.base,

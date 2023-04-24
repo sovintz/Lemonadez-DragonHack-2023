@@ -10,16 +10,37 @@
 
       <!-- About -->
       <v-row id="about" class="my-8" align="center">
-        <v-col cols=12 class="col-md-4 text-center">
+        <v-col cols=12 class="col-md-3 text-center">
           <v-avatar size="200">
-            <img src="~static/images/profile_picture.jpg" :alt="this.$i18n.t('homePage.aboutSection.altText')"/>
+            <img src="~static/images/matej.jpg"/>
           </v-avatar>
-          <h5 class="text-h5 mt-2">{{ $t('homePage.aboutSection.myName') }}</h5>
-          <p class="text-subtitle-1">{{ $t('homePage.aboutSection.obtainedTitle') }}</p>
+          <h5 class="text-h5 mt-2">{{ $t('homePage.aboutSection.people[0].myName') }}</h5>
+          <p class="text-subtitle-1">{{ $t('homePage.aboutSection.people[0].obtainedTitle') }}</p>
         </v-col>
-        <v-col cols=12 class="col-md-8 text-center">
-          <p class="text-body-1">
-            {{ $t('homePage.aboutSection.description') }}
+        <v-col cols=12 class="col-md-3 text-center">
+          <v-avatar size="200">
+            <img src="~static/images/zan.jpg"/>
+          </v-avatar>
+          <h5 class="text-h5 mt-2">{{ $t('homePage.aboutSection.people[1].myName') }}</h5>
+          <p class="text-subtitle-1">{{ $t('homePage.aboutSection.people[1].obtainedTitle') }}</p>
+        </v-col>
+        <v-col cols=12 class="col-md-3 text-center">
+          <v-avatar size="200">
+            <img src="~static/images/domen.jpg"/>
+          </v-avatar>
+          <h5 class="text-h5 mt-2">{{ $t('homePage.aboutSection.people[2].myName') }}</h5>
+          <p class="text-subtitle-1">{{ $t('homePage.aboutSection.people[2].obtainedTitle') }}</p>
+        </v-col>
+        <v-col cols=12 class="col-md-3 text-center">
+          <v-avatar size="200">
+            <img src="~static/images/lan.jpg"/>
+          </v-avatar>
+          <h5 class="text-h5 mt-2">{{ $t('homePage.aboutSection.people[3].myName') }}</h5>
+          <p class="text-subtitle-1">{{ $t('homePage.aboutSection.people[3].obtainedTitle') }}</p>
+        </v-col>
+
+        <v-col cols=12 class="col-md-12 text-center">
+          <p class="text-body-1" v-html="$t('homePage.aboutSection.description')">
           </p>
         </v-col>
       </v-row>
@@ -54,9 +75,9 @@
     </v-container>
 
     <!-- Contact -->
-    <div id="contact">
+    <!--<div id="contact">
       <ContactBlock/>
-    </div>
+    </div>-->
 
   </div>
 

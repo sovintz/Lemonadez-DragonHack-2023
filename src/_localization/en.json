@@ -9,47 +9,66 @@
       "to": "competences"
     },
     {
-      "title": "Experience",
+      "title": "Projects",
       "to": "projects"
-    },
-    {
-      "title": "Contact",
-      "to": "contact"
     }
   ],
   "homePage": {
-    "tabTitle": "WorldFolio Tab",
-    "appBarTitle": "WorldFolio",
-    "pageTitle": "WorldFolio Page",
+    "tabTitle": "Lemonadez",
+    "appBarTitle": "Lemonadez",
+    "pageTitle": "Lemonadez",
     "metaData": "This is the meta data description of the website. It helps search engines to better summarize your page. Write a short description here.",
     "header": {
-      "title": "My awesome slogan!",
-      "buttonContact": "Contact"
+      "title": "Pour yourself a glass of refreshing innovation",
+      "buttonContact": "Meet our team"
     },
     "aboutSection": {
-      "title": "About",
-      "myName": "My name",
-      "altText": "My name alt text",
-      "obtainedTitle": "My position/education",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "title": "Who we are",
+      "people": [
+        {
+          "myName": "Matej Horvat",
+          "altText": "Matej Horvat",
+          "obtainedTitle": "Computer Science Master Student",
+          "image": "matej.jpg"
+        },
+        {
+          "myName": "Žan Horvat",
+          "altText": "Žan Horvat",
+          "obtainedTitle": "Computer Science Master Student",
+          "image": "zan.jpg"
+        },
+        {
+          "myName": "Domen Koščak",
+          "altText": "Domen Koščak",
+          "obtainedTitle": "Computer Science Master Student",
+          "image": "domen.jpg"
+        },
+        {
+          "myName": "Lan Sovinc",
+          "altText": "Lan Sovinc",
+          "obtainedTitle": "Computer Science Master Student",
+          "image": "lan.jpg"
+        }
+      ],
+      "description": "<b>LEMONADEZ</b> consists of four highly motivated master's students of computer science. Each of us brings a unique set of skills and experience to the table, including web development, mobile app development, machine learning, IoT development, and more. We are eager to participate in this hackathon and work collaboratively to develop innovative solutions. As a team, we are passionate about using technology to solve real-world problems and are excited to apply our expertise to this challenge. We thrive in a fast-paced and challenging environment and are committed to producing high-quality work. With our diverse skill set and collaborative spirit, we are confident that we can create impactful and innovative solutions."
     },
     "competencesSection": {
-      "title": "What I do?",
+      "title": "What we do?",
       "competences": [
         {
-          "title": "First Competence",
-          "description": "First competence short description to explain it a bit better to others who might not know a lot about it.",
+          "title": "Web Development",
+          "description": "Our team has experience in developing web applications using a variety of technologies.",
           "icon": "mdi-xml"
         },
         {
-          "title": "Second Competence",
-          "description": "Second competence short description to explain it a bit better to others who might not know a lot about it.",
+          "title": "Mobile Development",
+          "description": "Our team has experience developing both native and cross-platform mobile applications for both Android and iOS.",
           "icon": "mdi-devices"
         },
         {
-          "title": "Third competence",
-          "description": "Third competence short description to explain it a bit better to others who might not know a lot about it.",
-          "icon": "mdi-pencil-ruler"
+          "title": "Innovative Approach",
+          "description": "We are always looking for new and creative ways to solve problems and create practical solutions that make a difference.",
+          "icon": "mdi-lightbulb-on-outline"
         }
       ]
     },
@@ -58,31 +77,59 @@
       "button": "Link",
       "projects": [
         {
-          "title": "My Project #1",
-          "description": "It is an interesting project and I am proud of it.",
-          "image": "project.jpg",
-          "altText": "My project #1 image alt text",
-          "link": "https://example.com"
+          "title": "LetterBot",
+          "description": "Development of an AI-power web motivation letter generator.",
+          "image": "letterbot.png",
+          "altText": "LetterBot project image",
+          "link": "https://letterbot.webturtlelabs.com/"
         },
         {
-          "title": "My Project #2",
-          "description": "It is an interesting project and I am proud of it.",
-          "image": "project.jpg",
-          "altText": "My project #2 image alt text",
-          "link": "https://example.com"
+          "title": "Allergone",
+          "description": "Allergone helps people with allergies to find places to eat. People with allergies can finally find places to eat using a mobile or web app.",
+          "image": "allergone_restaurant.png",
+          "altText": "Allergone",
+          "link": "https://github.com/zerodays/dragonhack-2022-1"
         },
         {
-          "title": "My Project #3",
-          "description": "It is an interesting project and I am proud of it.",
-          "image": "project.jpg",
-          "altText": "My project #3 image alt text",
-          "link": "https://example.com"
+          "title": "RoboLiga 2023",
+          "description": "1st place in FRI Robo league of 2023.",
+          "image": "liga.jpg",
+          "altText": "RoboLiga 2023",
+          "link": "https://www.fri.uni-lj.si/sl/novice/novica/finale-robo-lige-fri-2023"
         },
         {
-          "title": "My Project #4",
-          "description": "It is an interesting project and I am proud of it. But it does not have a link.",
-          "image": "project.jpg",
-          "altText": "My project #4 image alt text"
+          "title": "HADIS - Home Automation, Development and Integration System",
+          "description": "System to controll and automate smart home devices",
+          "image": "hadis.png",
+          "altText": "HADIS - Home Automation, Development and Integration System",
+          "link": "https://github.com/HADIS-Home-Automation"
+        },
+        {
+          "title": "IoT Heating system",
+          "description": "Development of an IoT Building Heating Control and Management System",
+          "image": "vticnica.jpg",
+          "altText": "IoT plug image"
+        },
+        {
+          "title": "Pikado Real Estate",
+          "description": "Development of a web application for a real estate agency.",
+          "image": "pikado_real_estate.png",
+          "altText": "Pikado Real Estate project image",
+          "link": "https://realestate.pikado.si/en"
+        },
+        {
+          "title": "ImageFind",
+          "description": "Search the text in your image using OCR technology",
+          "image": "imagefind.webp",
+          "altText": "ImageFind",
+          "link": "https://play.google.com/store/apps/details?id=horvatApps.ImageFind"
+        },
+        {
+          "title": "Right-LANe",
+          "description": "Steering System and Build Guide for the Home-Made Electric Longboard",
+          "image": "lr.jpg",
+          "altText": "IoT plug image",
+          "link": "https://github.com/sovintz/Right-LANe-2.0"
         }
       ]
     },
@@ -109,7 +156,7 @@
     }
   },
   "footer": {
-    "copyright": "© My Website | All Rights Reserved"
+    "copyright": "© Lemonadez | All Rights Reserved"
   },
   "socialIcons": [
     {
