@@ -13,7 +13,7 @@
             {{ socialIcon.icon }}
           </v-icon>
         </v-btn>-->
-        For DragonHack 2023
+        Lemonadez is not a company but a team we assembled for Dragonhack 2023.
       </v-card-text>
       <v-divider style="width: 50%" class="ma-auto grey darken-3"/>
       <v-card-text class="grey--text darken-2">
