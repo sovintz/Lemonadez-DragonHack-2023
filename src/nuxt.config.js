@@ -9,7 +9,7 @@ export default {
 
   // Router base for GitHub Pages
   router: {
-    base: '/Lemonadez-DragonHack-2023/',
+    base: '/',
     trailingSlash: true
   },
 
@@ -49,7 +49,7 @@ export default {
     [
       '@nuxtjs/i18n',
       {
-        baseUrl: 'https://sovintz.github.io/Lemonadez-DragonHack-2023',
+        baseUrl: 'https://lemonadez.sovinc.dev',
         locales: [
           {
             code: 'en',
