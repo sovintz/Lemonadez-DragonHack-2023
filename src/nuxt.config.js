@@ -49,7 +49,7 @@ export default {
     [
       '@nuxtjs/i18n',
       {
-        baseUrl: 'https://dragonhack.webturtlelabs.com',
+        baseUrl: 'https://sovintz.github.io/Lemonadez-DragonHack-2023',
         locales: [
           {
             code: 'en',
