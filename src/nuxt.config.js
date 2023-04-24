@@ -9,7 +9,7 @@ export default {
 
   // Router base for GitHub Pages
   router: {
-    base: '/',
+    base: '/Lemonadez-DragonHack-2023/',
     trailingSlash: true
   },
 
