@@ -26,7 +26,7 @@
         </v-col>
         <v-col cols=12 class="col-md-3 text-center">
           <v-avatar size="200">
-            <img src="~static/images/domen.jpg"/>
+            <img src="~static/images/katja.jpg"/>
           </v-avatar>
           <h5 class="text-h5 mt-2">{{ $t('homePage.aboutSection.people[2].myName') }}</h5>
           <p class="text-subtitle-1">{{ $t('homePage.aboutSection.people[2].obtainedTitle') }}</p>
